@@ -36,7 +36,7 @@ h2 {
     text-align: center;
     line-height: -400px;
     font-weight: 430;
-    margin-top: -420px;
+    margin-top: -416px;
 }
 
 header {
@@ -131,6 +131,12 @@ h4 {
     padding: 0px;    
 }
 
+.caja1{
+    margin-left: 31%;
+    height: 80%;
+    margin-top: -300px;
+}
+
 h5 {
     font-family: "Roboto condensed", sans-serif;
     max-height:
@@ -139,7 +145,7 @@ h5 {
     margin-right: 20%;
     margin-left: 10%;
     width: 30%;
-    margin-top: 50px;
+    margin-top: -170px;
 }
 
 .Modalidades {
@@ -177,6 +183,19 @@ h6 {
     margin-top: -600px;
 }
 
+.cartas1{
+    margin-left: 53%;
+    height: 70%;
+    margin-top: -100px;
+}
+
+.reglas1{
+    margin-left: 13%;
+    margin-right: 10%;
+    width: auto;
+    height: 100%;
+    margin-top: -950px;
+}
 .memoria {
     font-family: "Roboto condensed", sans-serif;
     font-weight: 300;
@@ -184,7 +203,7 @@ h6 {
     margin-right: 25%;
     margin-left: 25%;
     width: 50%;
-    margin-top: 400px
+    margin-top: -750px
 }
 
 .comprar{
@@ -197,3 +216,51 @@ h6 {
     margin-top: -550px;
 }
 
+.footer{
+    width: 20%
+    display: block;
+    overflow: hidden;
+    padding: 50px;
+    background-color: black;
+    padding-left: 10%;
+    margin-top: 3000px;
+    height: 13px;
+
+}
+
+.innerfooter {
+    display: block;
+    font-family: "Roboto condensed",sans-serif;
+    font-size: 2em;
+    color: white;
+    margin-top: -30px;
+    letter-spacing: 0.1em;
+
+}
+
+.datos{
+    display: block;
+    font-family: "Roboto condensed",sans-serif;
+    font-size: 0.8em;
+    color: white;
+    letter-spacing: 0.1em;
+    margin-top: 20px;
+}
+
+.ead{
+    display: block;
+    font-family: "Roboto Condensed",sans-serif;
+    margin-left: 75%;
+    margin-top: -30px;
+    color: white;
+    font-size: 1em;
+}
+
+.logo1{
+    margin-left: 13%;
+    margin-right: 10%;
+    width: auto;
+    height: 100%;
+    margin-top: -950px;
+    
+}
