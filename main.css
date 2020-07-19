@@ -5,10 +5,11 @@
 
 body {
     width: 100%;
-}
-
-.img-container {
     background-image: url(ENCABEZADO%20.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+    z-index: -1;
 }
 
 .iner-container {
@@ -24,7 +25,7 @@ h1 {
     font-size: 6em;
     font-family: "Roboto condensed", sans-serif;
     text-align: center;
-    line-height: 423px;
+    line-height: 402px;
     width: 103%;
 }
 
@@ -195,3 +196,4 @@ h6 {
     width: 30%;
     margin-top: -550px;
 }
+
