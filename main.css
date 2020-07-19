@@ -22,21 +22,21 @@ body {
 }
 
 h1 {
-    font-size: 6em;
+    font-size: 5.5em;
     font-family: "Roboto condensed", sans-serif;
     text-align: center;
     line-height: 402px;
-    width: 103%;
+    width: 96%;
 }
 
 h2 {
     margin-top: -130px;
     font-family: "Roboto Condensed", sans-serif;
-    font-size: 1.2em;
+    font-size: 1em;
     text-align: center;
-    font-weight: 420;
-    margin-left: 30px;
-    margin-top: -390px;
+    line-height: -400px;
+    font-weight: 430;
+    margin-top: -420px;
 }
 
 header {
