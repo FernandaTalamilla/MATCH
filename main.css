@@ -1,3 +1,4 @@
+
 * {
     margin: 0;
     height: 100%;
@@ -5,7 +6,7 @@
 
 body {
     width: 100%;
-    background-image: url(ENCABEZADO%20.jpg);
+    background-image: url(ENCABEZADO.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center top;
@@ -19,24 +20,6 @@ body {
     color: white;
     height: auto;
     margin-top: 200px;
-}
-
-h1 {
-    font-size: 5.5em;
-    font-family: "Roboto condensed", sans-serif;
-    text-align: center;
-    line-height: 402px;
-    width: 96%;
-}
-
-h2 {
-    margin-top: -130px;
-    font-family: "Roboto Condensed", sans-serif;
-    font-size: 1em;
-    text-align: center;
-    line-height: -400px;
-    font-weight: 430;
-    margin-top: -416px;
 }
 
 header {
@@ -91,7 +74,7 @@ h3 {
     margin-right: 20%;
     margin-left: 55%;
     width: 10%;
-    margin-top: -400px   
+    margin-top: -500px   
 }
 
 .Descripcion{
@@ -160,13 +143,13 @@ h5 {
 
 h6 {
     font-family: "Roboto condensed", sans-serif;
-    max-height:
+    max-height: 
     font-weight: 300;
     font-size: 1.8em;
     margin-right: 20%;
     margin-left: 55%;
-    width: 30%;
-    margin-top: 50px;
+    width: 20%;
+    margin-top: -200px;
 }
 
 .Como {
@@ -184,7 +167,7 @@ h6 {
 .cartas1{
     margin-left: 53%;
     height: 70%;
-    margin-top: -100px;
+    margin-top: 1600px;
 }
 
 .reglas1{
@@ -192,7 +175,7 @@ h6 {
     margin-right: 10%;
     width: auto;
     height: 100%;
-    margin-top: -950px;
+    margin-top: 750px;
 }
 .memoria {
     font-family: "Roboto condensed", sans-serif;
@@ -201,7 +184,7 @@ h6 {
     margin-right: 25%;
     margin-left: 25%;
     width: 50%;
-    margin-top: -750px
+    margin-top: 950px
 }
 
 .comprar{
@@ -221,7 +204,7 @@ h6 {
     padding: 50px;
     background-color: black;
     padding-left: 10%;
-    margin-top: 3000px;
+    margin-top: 3600px;
     height: 13px;
 }
 
@@ -257,5 +240,34 @@ h6 {
     margin-right: 10%;
     width: auto;
     height: 15%;
-    margin-top: -350px;    
+    margin-top: -400px;    
+}
+
+.video{
+    margin-left: 5%;
+    overflow: hidden;
+    position: relative;
+    margin-top: -700px;
+}
+.video iframe, .video object, .video embed {
+    height: 35%;
+    left: 5%;
+    position: absolute;
+    top: 0;
+    width: 35%;
+}
+
+.videojuego{
+    margin-left: 5%;
+    overflow: hidden;
+    position: relative;
+    margin-top: 2500px;
+}
+
+.videojuego, .videojuego object, .videojuego embed{
+    height: 45%;
+    left: 5%;
+    position: absolute;
+    top: 0;
+    width: 50%;
 }
