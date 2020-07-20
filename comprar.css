@@ -87,3 +87,49 @@ h3 {
     letter-spacing: 0.08em;
     padding: 0px;      
 }
+
+.footer{
+    width: 20%
+    display: block;
+    overflow: hidden;
+    padding: 50px;
+    background-color: black;
+    padding-left: 10%;
+    margin-top: 50px;
+    height: 13px;
+}
+
+.innerfooter {
+    display: block;
+    font-family: "Roboto condensed",sans-serif;
+    font-size: 2em;
+    color: white;
+    margin-top: -30px;
+    letter-spacing: 0.1em;
+}
+
+.datos{
+    display: block;
+    font-family: "Roboto condensed",sans-serif;
+    font-size: 0.8em;
+    color: white;
+    letter-spacing: 0.1em;
+    margin-top: 20px;
+}
+
+.ead{
+    display: block;
+    font-family: "Roboto Condensed",sans-serif;
+    margin-left: 75%;
+    margin-top: -30px;
+    color: white;
+    font-size: 1em;
+}
+
+.logo1{
+    margin-left: 44%;
+    margin-right: 10%;
+    width: auto;
+    height: 15%;
+    margin-top: -400px;    
+}
