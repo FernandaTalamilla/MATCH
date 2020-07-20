@@ -18,18 +18,19 @@
     }
     
     h2 {
-        font-size: 1em;
+        font-size: 1.5em;
         text-align: center;
         font-weight: 430;
     }
 
     h3 {
-        font-weight: 400;
-        font-size: 0.7em;
+        font-weight: ;
+        font-size: 1.5em;
+        margin-top: 20%;
     }
 
     p{
-        font-size: 0.5em;
+        font-size: 1.3em;
     }
 
     .grid {
@@ -58,7 +59,7 @@
         text-transform: uppercase;
         padding: 1ex 2ex;
         color: black;
-        font-size: 0.5em;
+        font-size: 1.5em;
         font-weight: bold;
         background-color: white;
     }
@@ -70,6 +71,7 @@
     .video {
             grid-column: 2 / 5;
             grid-row: 2;
+            margin-top: 20%;
     }
     .grid> .video, .video2, .video3, .video4, .video5 {
     position: relative;
@@ -101,6 +103,7 @@
     .grid> .caja {
         grid-column: 7 / 10;
         grid-row: 3;
+        margin-top: 40%;
     }
 
     .grid> .caja>img {
@@ -133,21 +136,25 @@
 
 .grid> .jugar {
     grid-column: 7 / 10;
-        grid-row: 6;
+    grid-row: 6;
+    margin-top: 20%;
+    
 }
 
 .grid> .video5 {
     grid-column: 2 / 5;
     grid-row: 6;
+    margin-top: 55%;
 }
 
 .grid> .instrucciones {
     grid-column: 2 / 5;
     grid-row: 7;
+    margin-top: -30%;
 }
 
 .grid> .cartas {
-    grid-column: 7 / 10;
+    grid-column: 6 / 10;
     grid-row: 7;
     align-self: center;
 }
@@ -159,6 +166,7 @@
 .grid> .pregunta {
     grid-column: 2 / 10;
     grid-row: 8;
+    margin-top: 10%;
 }
 
 .grid> .pregunta h2 {
@@ -178,13 +186,13 @@
 }
 
 .grid> .logo {
-    grid-column: 4 / 8;
+    grid-column: 5 / 8;
     grid-row: 9;
 }
 
 .grid> .logo>img {
     justify-self: center;
-    width: 100%;
+    width: 65%;
 }
 
 .bloquenegro {
